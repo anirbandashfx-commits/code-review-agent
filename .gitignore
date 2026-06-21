@@ -1,0 +1,19 @@
+# Maven
+target/
+*.class
+*.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Environment / secrets — NEVER commit these
+application-local.properties
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
